@@ -65,12 +65,11 @@
 		329290CE2A471E17002D1888 /* ContactList */ = {
 			isa = PBXGroup;
 			children = (
-				329290CF2A471E17002D1888 /* ContactListApp.swift */,
 				329290DE2A471F02002D1888 /* Views */,
 				329290E02A471F21002D1888 /* Models */,
 				329290DF2A471F15002D1888 /* Services */,
-				329290DD2A471EF2002D1888 /* App */,
 				329290D32A471E18002D1888 /* Assets.xcassets */,
+				329290CF2A471E17002D1888 /* ContactListApp.swift */,
 				329290D52A471E18002D1888 /* Preview Content */,
 			);
 			path = ContactList;
@@ -82,13 +81,6 @@
 				329290D62A471E18002D1888 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		329290DD2A471EF2002D1888 /* App */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = App;
 			sourceTree = "<group>";
 		};
 		329290DE2A471F02002D1888 /* Views */ = {
