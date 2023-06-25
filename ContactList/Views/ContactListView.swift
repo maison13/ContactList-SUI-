@@ -14,7 +14,7 @@ struct ContactListView: View {
             List(persons, id: \.name) { person in
                 NavigationLink(destination: PersonInfoView(person: person)) {
                         Text(person.fullName)
-                        .font(.title3)
+                        .font(.system(size: 17))
                 }
             }
             .listStyle(.plain)

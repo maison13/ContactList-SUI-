@@ -16,7 +16,7 @@ struct PersonInfoRowView: View {
             Image(systemName: image)
                 .foregroundColor(.blue)
             Text(personInfo)
-                .font(.title3)
+                .font(.system(size: 17))
                 .padding(.leading, 7)
             Spacer()
         }
