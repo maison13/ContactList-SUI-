@@ -11,7 +11,6 @@ struct FullContactsView: View {
     let persons: [Person]
     
     var body: some View {
-        NavigationStack {
             List {
                 ForEach(persons, id: \.name) { person in
                     Section(header: Text(person.fullName)) {
@@ -19,11 +18,8 @@ struct FullContactsView: View {
                         PersonInfoRowView(image: Contacts.email.rawValue, personInfo: person.email)
                     }
                 }
-                
             }
-            .navigationTitle("Contact List")
             .listStyle(.plain)
-        }
     }
 }
 

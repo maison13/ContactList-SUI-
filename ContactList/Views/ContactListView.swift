@@ -11,7 +11,6 @@ struct ContactListView: View {
     let persons: [Person]
    
     var body: some View {
-        NavigationStack {
             List(persons, id: \.name) { person in
                 NavigationLink(destination: PersonInfoView(person: person)) {
                         Text(person.fullName)
@@ -19,10 +18,7 @@ struct ContactListView: View {
                 }
             }
             .listStyle(.plain)
-            .navigationTitle("Contact List")
-        }
     }
-        
 }
 
 struct ContactListView_Previews: PreviewProvider {
