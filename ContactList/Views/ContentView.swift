@@ -24,7 +24,7 @@ struct ContentView: View {
                         Text("Numbers")
                     }
             }
-            .navigationTitle("Contacta List")
+            .navigationTitle("Contact List")
         }
     }
 }
